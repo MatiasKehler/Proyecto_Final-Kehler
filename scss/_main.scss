@@ -321,16 +321,16 @@
 /* MAIN de Nuestros Servicios */
 
 .my_cards1 {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .my_cards {
     @include general;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
