@@ -1,0 +1,377 @@
+/* IMPORTS */ /* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Exo:wght@100&display=swap");
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-family: "Exo 2", sans-serif;
+}
+
+/* HEADER con BOOTSTRAP */
+.my-navbar {
+  background-color: white;
+  border: inset 1px black;
+}
+.my-navbar .navbar-nav {
+  font-size: 2rem;
+}
+.my-navbar a {
+  color: #1f698c;
+  font-weight: bold;
+}
+.my-navbar a:hover {
+  text-transform: uppercase;
+  color: #62a5d9;
+}
+
+/* MIXINS */
+/* MAIN del INDEX */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #62a5d9;
+  border-radius: 5rem;
+  width: 4vh;
+  height: 4vh;
+  opacity: 0.9;
+}
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  background-color: #e48325;
+  border-radius: 5rem;
+  width: 5vh;
+  height: 5vh;
+}
+
+.h1_index, .h2_index {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.h1_index {
+  font-size: 4rem;
+}
+.h1_index .h1_span {
+  font-weight: bold;
+}
+
+.h2_index {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my_figures {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-size: 3rem;
+}
+
+.h3_index {
+  text-align: center;
+  font-size: 4rem;
+  background-color: #1f698c;
+  color: white;
+  font-weight: bold;
+}
+
+.servicios_index {
+  background-color: #1f698c;
+}
+.servicios_index .servicios {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.servicios_index .my_figures1 {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  color: #e48325;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 10rem;
+}
+.servicios_index .serv_figures, .servicios_index .serv_figures1 {
+  margin-bottom: 5rem;
+}
+.servicios_index .my_figures2 {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  color: #e48325;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.servicios_index p {
+  color: white;
+}
+
+.ver_mas, .ver_mas1 {
+  text-align: center;
+  font-size: 3rem;
+  background-color: #1f698c;
+  height: 20rem;
+}
+.ver_mas .button_Ver, .ver_mas1 .button_Ver {
+  display: inline-block;
+  border: 3px solid white;
+  background-color: #1f698c;
+  border-radius: 10rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  margin-top: 0;
+}
+.ver_mas .button_Ver:hover, .ver_mas1 .button_Ver:hover {
+  background-color: #40d7ae;
+  transition: all 1s;
+}
+.ver_mas a, .ver_mas1 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.ver_mas .button_Ver1, .ver_mas1 .button_Ver1 {
+  display: inline-block;
+  border: 3px solid white;
+  background-color: #1f698c;
+  border-radius: 10rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  background-color: white;
+  border: 3px solid #1f698c;
+  margin-top: 1rem;
+}
+.ver_mas .button_Ver1:hover, .ver_mas1 .button_Ver1:hover {
+  background-color: #e48325;
+  transition: all 1s;
+}
+.ver_mas .button_Ver1:hover a, .ver_mas1 .button_Ver1:hover a {
+  color: white;
+}
+
+.ver_mas1 {
+  background-color: white;
+  height: 15rem;
+}
+.ver_mas1 a {
+  color: #1f698c;
+}
+
+/* MAIN de Quienes Somos */
+.h1_quienes_somos {
+  background-color: #e48325;
+  color: white;
+  text-align: center;
+}
+.h1_quienes_somos .titulo {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.h1_quienes_somos .vision {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.h1_quienes_somos .vision1 {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.h1_quienes_somos .mision {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.h1_quienes_somos .mision1 {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 4rem;
+}
+
+.nuestro_equipo {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nuestro_equipo1 {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.medicos {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  border: solid #1f698c 3px;
+  border-radius: 2px;
+}
+.medicos .nombre_medico {
+  text-transform: uppercase;
+  color: #1f698c;
+  font-weight: bold;
+}
+.medicos .cargo_mat {
+  color: #e48325;
+}
+
+/* Main de Contacto */
+.donde {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.contacto {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contacto1 {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.contacto1 .apellido {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contacto1 .email {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.contacto1 .consulta {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.contacto1 .texto {
+  height: 10rem;
+}
+.contacto1 .enviar {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* MAIN de Nuestros Servicios */
+.my_cards1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my_cards {
+  text-align: center;
+  color: #1f698c;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* MAIN de Novedades*/
+.my_news {
+  text-align: center;
+  border: 5px solid #1f698c;
+  color: #1f698c;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.my-footer {
+  background-color: #1f698c;
+  color: white;
+}
+.my-footer .my-footer-1 {
+  font-size: 3rem;
+}
+.my-footer .my-footer-2 {
+  font-size: 15px;
+}
+
+.end {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,311 @@
+/* MIXINS */
+
+@mixin general {
+    text-align: center;
+    color: $text-color-1;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+@mixin quienes_somos_txt {
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+@mixin medicos_general {
+    text-transform: uppercase;
+    color: $text-color-1;
+    font-weight: bold;    
+}
+
+@mixin contactos {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+@mixin figures_serv {
+    border-radius: 5rem;
+    background-color: white;
+    margin-bottom: 10rem;
+}
+
+@mixin button {
+    display: inline-block;
+    border: 3px solid $background-color-2;
+    background-color: $background-color-1;
+    border-radius: 10rem;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+/* MAIN del INDEX */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: $text-color-3;
+    border-radius: 5rem;
+    width: 4vh;
+    height: 4vh;
+    opacity: 0.9;
+
+    &:hover {
+        background-color: $background-color-3;
+        border-radius: 5rem;
+        width: 5vh;
+        height: 5vh;
+    }
+}
+
+.h1_index, .h2_index {
+    @include general;
+}
+
+.h1_index {
+    font-size: 4rem;
+
+    .h1_span {
+        font-weight: bold;
+    }
+}
+
+.h2_index {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.my_figures {
+    @include general;
+    font-size: 3rem;
+}
+
+.h3_index {
+    text-align: center;
+    font-size: 4rem;
+    background-color: $background-color-1;
+    color: $text-color-2;
+    font-weight: bold;
+}
+
+.servicios_index {
+    background-color: $background-color-1;
+
+    .servicios {
+        @include general;
+        color: $text-color-2;
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+    .my_figures1 {
+        @include general;
+        color: $text-color-4;
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 10rem;
+    }
+
+    .serv_figures, .serv_figures1 {
+        margin-bottom: 5rem;
+    }
+
+    .my_figures2 {
+        @include general;
+        color: $text-color-4;
+        font-size: 3rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    p {
+        color: $text-color-2
+    }
+}
+
+.ver_mas, .ver_mas1 {
+    text-align: center;
+    font-size: 3rem;
+    background-color: $background-color-1;
+    height: 20rem;
+
+    .button_Ver {
+        @include button;
+        margin-top: 0;
+
+        &:hover {
+            background-color: $background-color-4;
+            transition: all 1s;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: $text-color-2;
+    }
+
+    .button_Ver1 {
+        @include button;
+        background-color: $background-color-2;   
+        border: 3px solid $background-color-1;
+        margin-top: 1rem;
+
+        &:hover {
+            background-color: $background-color-3;
+            transition: all 1s;
+            
+            a {
+                color: $text-color-2;
+            }
+        }
+    }
+}
+
+.ver_mas1 {
+    background-color: $background-color-2;
+    height: 15rem;
+
+    a {
+        color: $text-color-1;
+    }
+}
+
+/* MAIN de Quienes Somos */
+
+.h1_quienes_somos {
+    background-color: $background-color-3;
+    color: $text-color-2;
+    text-align: center;
+
+    .titulo {
+        @include quienes_somos_txt;
+        font-weight: bold;
+    }
+
+    .vision {
+        @include quienes_somos_txt;
+        font-weight: bold;
+    }
+
+    .vision1 {
+        @include quienes_somos_txt;
+    }
+
+    .mision {
+        @include quienes_somos_txt;
+        font-weight: bold;
+    }
+    
+    .mision1 {
+        @include quienes_somos_txt;
+        padding-bottom: 4rem;
+    }
+}
+
+.nuestro_equipo {
+    @include general;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nuestro_equipo1 {
+    @include general;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.medicos {
+    @include general;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    border: solid $text-color-1 3px;
+    border-radius: 2px;
+
+    .nombre_medico {
+        @include medicos_general;
+    }
+
+    .cargo_mat {
+        color: $text-color-4;
+    }
+}
+
+/* Main de Contacto */
+
+.donde {
+    @include general;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.contacto {
+    @include general;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contacto1 {
+    @include general;
+    font-size: 2rem;
+    margin-top: 1rem;
+
+    .apellido {
+        @include contactos;
+    }
+
+    .email {
+        @include contactos;
+        margin-top: 1rem;
+    }
+
+    .consulta {
+        @include contactos;
+        margin-top: 1rem;
+    }
+
+    .texto {
+        height: 10rem;
+    }
+
+    .enviar {
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* MAIN de Nuestros Servicios */
+
+.my_cards1 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.my_cards {
+    @include general;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* MAIN de Novedades*/
+
+.my_news {
+    text-align: center;
+    border: 5px solid $background-color-1;
+    color: $text-color-1;
+    font-weight: bold;
+}
