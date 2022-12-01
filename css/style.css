@@ -376,10 +376,43 @@ html body {
   margin-left: 7rem;
   margin-right: 7rem;
   margin-top: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.ver_mas3 {
+  text-align: center;
+  font-size: 2rem;
+}
+.ver_mas3 .button_Ver3 {
+  display: inline-block;
+  border: 3px solid white;
+  background-color: #1f698c;
+  border-radius: 10rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  margin-top: 1rem;
+  background-color: white;
+  border: 3px solid #1f698c;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 1;
+  top: -10rem;
+}
+.ver_mas3 .button_Ver3:hover {
+  background-color: #1f698c;
+  font-weight: bold;
+  transition: all 1s;
+}
+.ver_mas3 .button_Ver3:hover a {
+  color: white;
+}
+.ver_mas3 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1f698c;
 }
 
 /* MAIN de Novedades*/
