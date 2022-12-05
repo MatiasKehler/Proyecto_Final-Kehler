@@ -455,6 +455,22 @@ html body {
   margin-bottom: 1rem;
 }
 
+/* MAIN de 8_tips */
+.my-text1 {
+  color: #1f698c;
+}
+.my-text1 h1 {
+  font-size: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+.my-text1 p {
+  font-size: 2rem;
+  color: grey;
+  margin-bottom: 2rem;
+}
+
 /* FOOTER */
 .my-footer {
   background-color: #1f698c;

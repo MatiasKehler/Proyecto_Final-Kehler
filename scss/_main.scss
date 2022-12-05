@@ -413,3 +413,22 @@
         margin-bottom: 1rem;
     }
 }
+
+/* MAIN de 8_tips */
+
+.my-text1 {
+    color: $text-color-1;
+
+    h1 {
+        font-size: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 2rem;
+        color: $text-color-6;
+        margin-bottom: 2rem;
+    }
+}
