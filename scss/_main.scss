@@ -42,12 +42,6 @@
     margin-top: 5rem;
 }
 
-@mixin imgNovedadesIn {
-    width: 100rem;
-    height: 60rem;
-    margin-top: 10rem;
-}
-
 /* MAIN del INDEX */
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -372,18 +366,25 @@
 }
 /* MAIN de Novedades */
 
-.my_news {
+.my-imgs {
     text-align: center;
-    border: 5px solid $background-color-1;
-    color: $text-color-1;
-    font-weight: bold;
+
+    a {
+        font-size: 4rem;
+        text-decoration: none;
+        color: $text-color-1;
+
+        &:hover{
+            text-transform: uppercase;
+        }
+    }
+
+    p {
+        font-size: 2rem;
+    }
 }
 
 /* MAIN de Covid */
-
-.imgCovid {
-    @include imgNovedadesIn;
-}
 
 .my-text {
     color: $text-color-1;
@@ -408,6 +409,6 @@
     li {
         font-size: 2rem;
         color: $text-color-6;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }

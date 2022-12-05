@@ -415,20 +415,22 @@ html body {
 }
 
 /* MAIN de Novedades */
-.my_news {
+.my-imgs {
   text-align: center;
-  border: 5px solid #1f698c;
+}
+.my-imgs a {
+  font-size: 4rem;
+  text-decoration: none;
   color: #1f698c;
-  font-weight: bold;
+}
+.my-imgs a:hover {
+  text-transform: uppercase;
+}
+.my-imgs p {
+  font-size: 2rem;
 }
 
 /* MAIN de Covid */
-.imgCovid {
-  width: 100rem;
-  height: 60rem;
-  margin-top: 10rem;
-}
-
 .my-text {
   color: #1f698c;
 }
@@ -449,7 +451,7 @@ html body {
 .my-text li {
   font-size: 2rem;
   color: grey;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* FOOTER */
