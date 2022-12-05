@@ -249,7 +249,6 @@ html body {
   font-size: 3rem;
   margin-top: 4rem;
   margin-bottom: 2rem;
-  padding-bottom: 4rem;
 }
 
 .nuestro_equipo {
@@ -415,12 +414,42 @@ html body {
   color: #1f698c;
 }
 
-/* MAIN de Novedades*/
+/* MAIN de Novedades */
 .my_news {
   text-align: center;
   border: 5px solid #1f698c;
   color: #1f698c;
   font-weight: bold;
+}
+
+/* MAIN de Covid */
+.imgCovid {
+  width: 100rem;
+  height: 60rem;
+  margin-top: 10rem;
+}
+
+.my-text {
+  color: #1f698c;
+}
+.my-text h1, .my-text h3 {
+  font-size: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+.my-text h2, .my-text h4 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.my-text p {
+  font-size: 2rem;
+  color: grey;
+}
+.my-text li {
+  font-size: 2rem;
+  color: grey;
+  margin-bottom: 2rem;
 }
 
 /* FOOTER */
