@@ -427,7 +427,8 @@ html body {
   text-transform: uppercase;
 }
 .my-imgs p {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-top: 3rem;
 }
 
 /* MAIN de Covid */
