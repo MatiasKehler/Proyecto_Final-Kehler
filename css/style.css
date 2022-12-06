@@ -313,6 +313,13 @@ html body {
   display: block;
 }
 
+.my-form {
+  text-align: center;
+}
+.my-form .apellido, .my-form .email, .my-form .consulta {
+  color: #1f698c;
+  font-size: 2rem;
+}
 .my-form h2 {
   font-size: 5rem;
   color: #1f698c;
@@ -320,16 +327,32 @@ html body {
   font-weight: bold;
 }
 .my-form h3 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #1f698c;
-  text-align: start;
+  text-align: center;
   font-weight: bold;
+  margin-top: 5rem;
 }
-.my-form h4 {
-  font-size: 3rem;
+
+.my-form1 {
+  text-align: center;
+}
+.my-form1 h2 {
+  font-size: 3.5rem;
   color: #1f698c;
-  text-align: end;
+  text-align: center;
   font-weight: bold;
+  margin-top: 4rem;
+}
+.my-form1 svg {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.my-form1 .face {
+  color: #1977f3;
+}
+.my-form1 .insta {
+  color: #c1158d;
 }
 
 /* MAIN de Nuestros Servicios */

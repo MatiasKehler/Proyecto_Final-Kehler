@@ -281,6 +281,13 @@
 }
 
 .my-form {
+    text-align: center;
+
+    .apellido, .email, .consulta {
+        color: $text-color-1;
+        font-size: 2rem;
+    }
+
 
     h2 {
         font-size: 5rem;
@@ -290,19 +297,37 @@
     }
 
     h3 {
-        font-size: 3rem;
+        font-size: 3.5rem;
         color: $text-color-1;
-        text-align: start;
+        text-align: center;
         font-weight: bold;
+        margin-top: 5rem;
+    }
+}
+
+.my-form1 {
+    text-align: center;
+
+    h2 {
+        font-size: 3.5rem;
+        color: $text-color-1;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 4rem;
     }
 
-    h4 {
-        font-size: 3rem;
-        color: $text-color-1;
-        text-align: end;
-        font-weight: bold;
+    svg {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 
+    .face {
+        color: $background-color-6;
+    }
+
+    .insta {
+        color: $background-color-7;
+    }
 }
 
 /* MAIN de Nuestros Servicios */
