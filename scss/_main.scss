@@ -280,41 +280,29 @@
     display: block;
 }
 
-.contacto {
-    @include general;
-    font-size: 4rem;
-    font-weight: bold;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
+.my-form {
 
-.contacto1 {
-    @include general;
-    font-size: 2rem;
-    margin-top: 1rem;
-
-    .apellido {
-        @include contactos;
+    h2 {
+        font-size: 5rem;
+        color: $text-color-1;
+        text-align: center;
+        font-weight: bold;
     }
 
-    .email {
-        @include contactos;
-        margin-top: 1rem;
+    h3 {
+        font-size: 3rem;
+        color: $text-color-1;
+        text-align: start;
+        font-weight: bold;
     }
 
-    .consulta {
-        @include contactos;
-        margin-top: 1rem;
+    h4 {
+        font-size: 3rem;
+        color: $text-color-1;
+        text-align: end;
+        font-weight: bold;
     }
 
-    .texto {
-        height: 10rem;
-    }
-
-    .enviar {
-        margin-top: 3rem;
-        margin-bottom: 0.5rem;
-    }
 }
 
 /* MAIN de Nuestros Servicios */

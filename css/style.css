@@ -313,52 +313,23 @@ html body {
   display: block;
 }
 
-.contacto {
-  text-align: center;
+.my-form h2 {
+  font-size: 5rem;
   color: #1f698c;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  margin-left: 7rem;
-  margin-right: 7rem;
-  font-size: 4rem;
-  font-weight: bold;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.contacto1 {
   text-align: center;
+  font-weight: bold;
+}
+.my-form h3 {
+  font-size: 3rem;
   color: #1f698c;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  margin-left: 7rem;
-  margin-right: 7rem;
-  font-size: 2rem;
-  margin-top: 1rem;
-}
-.contacto1 .apellido {
+  text-align: start;
   font-weight: bold;
-  font-size: 3rem;
-  margin-bottom: 2rem;
 }
-.contacto1 .email {
+.my-form h4 {
+  font-size: 3rem;
+  color: #1f698c;
+  text-align: end;
   font-weight: bold;
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-.contacto1 .consulta {
-  font-weight: bold;
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-.contacto1 .texto {
-  height: 10rem;
-}
-.contacto1 .enviar {
-  margin-top: 3rem;
-  margin-bottom: 0.5rem;
 }
 
 /* MAIN de Nuestros Servicios */
