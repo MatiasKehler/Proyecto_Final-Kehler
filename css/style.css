@@ -313,10 +313,6 @@ html body {
   display: block;
 }
 
-.my-form .apellido, .my-form .email, .my-form .consulta {
-  color: #1f698c;
-  font-size: 2rem;
-}
 .my-form form {
   width: 35rem;
   height: 40rem;
@@ -338,6 +334,7 @@ html body {
   resize: none;
   border: 0;
   transition: all 0.3s;
+  font-size: 1.5rem;
   border-bottom: 2px solid #1f698c;
 }
 .my-form form input:focus {
@@ -347,7 +344,7 @@ html body {
   content: attr(type);
   display: block;
   margin: 1.5rem 0 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #1f698c;
 }
@@ -357,6 +354,7 @@ html body {
   margin: 1rem 0 0;
   border: 2px solid #1f698c;
   background: 0;
+  font-size: 2rem;
   color: #1f698c;
   cursor: pointer;
   transition: all 0.3s;
@@ -364,6 +362,7 @@ html body {
 .my-form form .enviar:hover, .my-form form .adjuntar:hover {
   background-color: #1f698c;
   color: white;
+  font-weight: bold;
 }
 .my-form form .adjuntar {
   float: right;
