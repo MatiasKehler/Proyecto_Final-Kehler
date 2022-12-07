@@ -216,6 +216,7 @@
     .titulo {
         @include quienes_somos_txt;
         font-weight: bold;
+        margin-top: 1rem;
     }
 
     .vision {
