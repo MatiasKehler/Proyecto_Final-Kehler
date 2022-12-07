@@ -59,6 +59,16 @@
     }
 }
 
+@media (max-width: 550px) {
+    .carousel-inner {
+        height: 30rem;
+    }
+
+    .carousel-inner img {
+        height: 30rem;
+    }
+}
+
 .h1_index, .h2_index {
     @include general;
 }
