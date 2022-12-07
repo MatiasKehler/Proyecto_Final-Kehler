@@ -313,12 +313,60 @@ html body {
   display: block;
 }
 
-.my-form {
-  text-align: center;
-}
 .my-form .apellido, .my-form .email, .my-form .consulta {
   color: #1f698c;
   font-size: 2rem;
+}
+.my-form form {
+  width: 35rem;
+  height: 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 4rem -1rem #000;
+  padding: 2rem 3rem;
+  margin: calc(50vh - 22rem) auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.my-form form input {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all 0.3s;
+  border-bottom: 2px solid #1f698c;
+}
+.my-form form input:focus {
+  border-bottom: 2px solid #e48325;
+}
+.my-form form p:before {
+  content: attr(type);
+  display: block;
+  margin: 1.5rem 0 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f698c;
+}
+.my-form form .enviar, .my-form form .adjuntar {
+  float: left;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0 0;
+  border: 2px solid #1f698c;
+  background: 0;
+  color: #1f698c;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.my-form form .enviar:hover, .my-form form .adjuntar:hover {
+  background-color: #1f698c;
+  color: white;
+}
+.my-form form .adjuntar {
+  float: right;
 }
 .my-form h2 {
   font-size: 5rem;
